@@ -58,8 +58,6 @@ const Cart: React.FC = () => {
     return products.reduce((acc, cur) => acc + cur.quantity, 0);
   }, [products]);
 
-  console.log(products);
-
   return (
     <Container>
       <ProductContainer>
